@@ -5,7 +5,7 @@ Release:	0%{?dist}
 License:	Yahoo! DomainKeys Public License
 Group:		System Environment/Libraries
 URL:		http://domainkeys.sourceforge.net/
-Source0:	http://downloads.sourceforge.net/project/domainkeys/%{name}/%{version}/%{name}-%{version}.tar.gz
+Source0:	http://downloads.sourceforge.net/project/domainkeys/libdomainkeys/0.69/%{name}-%{version}.tar.gz
 BuildRequires:	openssl-devel
 Obsoletes:      libdomainkeys-toaster
 BuildRoot:      %{_topdir}/BUILDROOT/%{name}-%{version}-%{release}.%{_arch}
