@@ -5,7 +5,7 @@ Release:	0%{?dist}
 License:	Yahoo! DomainKeys Public License
 Group:		System Environment/Libraries
 URL:		http://domainkeys.sourceforge.net/
-Source0:	http://downloads.sourceforge.net/project/domainkeys/libdomainkeys/0.69/%{name}-%{version}.tar.gz
+Source0:	http://downloads.sourceforge.net/project/domainkeys/%{name}/0.69/%{name}-%{version}.tar.gz
 BuildRequires:	openssl-devel
 Obsoletes:      libdomainkeys-toaster
 BuildRoot:      %{_topdir}/BUILDROOT/%{name}-%{version}-%{release}.%{_arch}
@@ -22,6 +22,7 @@ DomainKey Implementor's library.
 #-------------------------------------------------------------------------------
 Summary:	DomainKey library development
 Group:		System Environment/Libraries
+Provides:	libdomainkeys-static = %{version}-%{release}
 
 %description -n %{name}-devel
 Headers and libraries for building packages which use the DomainKey library.
